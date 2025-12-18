@@ -1,23 +1,26 @@
-
-/* Your CSS Code here. */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
 }
 
 nav ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #007bff;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 20px 0;
+  display: block;
+  margin-top: 20px;
+  width: 300px;
 }
